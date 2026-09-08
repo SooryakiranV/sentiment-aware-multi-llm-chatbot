@@ -1,0 +1,12 @@
+openai
+anthropic
+google-generativeai
+transformers
+sentence-transformers
+torch
+pandas
+numpy
+tqdm
+streamlit
+scikit-learn
+python-dotenv
