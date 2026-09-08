@@ -19,6 +19,7 @@ This project addresses both challenges within a single framework by:
 ## System Architecture
 
 
+```text
 User Query
     ↓
 Sentiment Detection
@@ -26,7 +27,7 @@ Sentiment Detection
 LLM Response Generation
     ↓
 ┌─────────────────────────────────────────────┐
-│              Multi-LLM Validation           │
+│            Multi-LLM Validation             │
 │                                             │
 │  Claude → Factual Consistency               │
 │  Gemini → Relevance + Hallucination Risk    │
@@ -40,6 +41,7 @@ ACCEPT / FLAG / REJECT
 Sentiment-Aware Response Rewriting
     ↓
 Final Response
+```
 
 ## Main Components
 ### 1. Sentiment Detection
@@ -155,6 +157,8 @@ NumPy
 Scikit-learn
 
 ## Project Structure
+
+```text
 sentiment-aware-multi-llm-chatbot/
 │
 ├── README.md
@@ -175,12 +179,9 @@ sentiment-aware-multi-llm-chatbot/
 ├── data/
 │   └── truthfulqa.csv
 │
-├── results/
-│   └── pipeline_results.csv
-│
 └── models/
     └── README.md
-
+```
 ## Installation
 
 Clone the repository:
