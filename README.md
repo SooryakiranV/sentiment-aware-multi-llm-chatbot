@@ -26,11 +26,11 @@ Sentiment Detection
 LLM Response Generation
     ↓
 ┌─────────────────────────────────────────────┐
-│              Multi-LLM Validation            │
+│              Multi-LLM Validation           │
 │                                             │
 │  Claude → Factual Consistency               │
-│  Gemini → Relevance + Hallucination Risk   │
-│  RoBERTa → Sentiment Coherence             │
+│  Gemini → Relevance + Hallucination Risk    │
+│  RoBERTa → Sentiment Coherence              │
 └─────────────────────────────────────────────┘
     ↓
 Weighted Score Aggregation
